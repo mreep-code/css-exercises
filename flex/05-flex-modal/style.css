@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
   gap: 16px;
+  /* makes white space larger or smaller */
   padding: 16px;
 }
 
@@ -32,8 +33,10 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  /* creates a circle icon background */
   border-radius: 50%;
   display: flex;
+  /* centers ! in icon */
   align-items: center;
   justify-content: center;
   /* this keeps the icon from getting smashed by the text */
@@ -55,6 +58,7 @@ body {
 
 .close-button {
   background: #eee;
+  /* creates a circle icon background */
   border-radius: 50%;
   color: #888;
   font-weight: 400;
